@@ -1,0 +1,10 @@
+python #cek versi python
+pip install virtualenv #instalasi virtual environment
+virtualenv env # create virtualenv dengan nama "env"
+env\scripts\activate #start virtualenv
+env\scripts\deactivate #stop virtualenv
+pip install django #install django
+django-admin #cek django admin
+django-admin startproject studybud #create django project dengan nama "studybud"
+python manage.py runserver #run webserver django
+python manage.py startapp base #create django app dengan nama "base"
